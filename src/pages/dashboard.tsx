@@ -1,5 +1,7 @@
+import Lista from "@/components/Lista";
 import PCItem from "@/components/PCItem";
 import pcs from "@/constants/pcs";
+import { IconAffiliate, IconPrinter } from "@tabler/icons-react";
 
 export default function Dashboard() {
     const pc = pcs[0]
@@ -23,6 +25,14 @@ export default function Dashboard() {
                                     <svg className="flex-shrink-0 w-5 h-5 mr-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                                     </svg>
+                                </a>
+
+                                <a href="#" className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-[#ec1c4c] group">
+                                    <IconPrinter />
+                                </a>
+
+                                <a href="#" className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-[#ec1c4c] group">
+                                    <IconAffiliate />
                                 </a>
 
                                 <a href="#" className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-[#ec1c4c] group">
@@ -103,8 +113,8 @@ export default function Dashboard() {
                     <hr className="border-[#ec1c4c] mt-8 overflow-visible " />
 
 
-                    <div className="flex mt-10 px-4 mx-auto max-w-[90%] sm:px-6 md:px-8">
-                        <div className="">
+                    <div className="flex justify-center mt-8">
+                        {/* <div className="">
                             <div className="relative shadow-lg shadow-zinc-/50">
                                 <input type="search" name="" id="" className={`
                                     block w-full py-2 pl-10 pr-[75px] hover:pr-[130px] focus:pr-[100px] duration-75 
@@ -117,14 +127,17 @@ export default function Dashboard() {
                                     </svg>
                                 </div>
                             </div>
+                        </div> */}
+
+
+                        <Lista />
 
 
 
 
-                        </div>
+
+
                     </div>
-
-
                 </main>
             </div>
         </div>

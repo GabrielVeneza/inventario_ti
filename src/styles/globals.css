@@ -25,3 +25,49 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* ------ SCROLL BAR ------ */
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ec1c4c; 
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+/* ------ SCROLL BAR ------ */
+
+
+
+/* ------ TABELA ------ */
+#tabela{
+  height:300px;
+  min-width: 100%;
+  }
+#tabela thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+#tabela tbody{
+  height: 300px;
+}
+
+#tabela thead tr th {
+  position: sticky;
+  top: 0;
+}
