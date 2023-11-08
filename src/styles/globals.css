@@ -58,16 +58,13 @@ body {
   height:300px;
   min-width: 100%;
   }
-#tabela thead, tbody tr {
-    display: table;
+#tabela thead, tbody tr {   
     width: 100%;
-    table-layout: fixed;
-}
-#tabela tbody{
-  height: 300px;
 }
 
-#tabela thead tr th {
-  position: sticky;
-  top: 0;
+#tabela tbody {
+    width: 100%;
+    display:block;
+    overflow:auto;
+    height: 250px;
 }

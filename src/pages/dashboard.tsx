@@ -1,14 +1,14 @@
 import Lista from "@/components/Lista";
 import PCItem from "@/components/PCItem";
 import pcs from "@/constants/pcs";
-import { IconAffiliate, IconPrinter } from "@tabler/icons-react";
+import { IconAffiliate, IconDeviceDesktop, IconPrinter } from "@tabler/icons-react";
 
 export default function Dashboard() {
     const pc = pcs[0]
 
     return (
         <div className="flex flex-1  h-screen bg-gray-50">
-            <div className="hidden ml-2 md:flex md:w-20 md:flex-col">
+            <div className="hidden md:flex md:w-20 md:flex-col">
                 <div className="flex flex-col flex-grow pt-5 overflow-y-auto bg-white border border-r-[#ec1c4c]">
                     <div className="flex justify-center items-center flex-shrink-0 px-4">
                         <img className="w-auto h-[32px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLE9DGVPNVJ30saW_ABX-oMiJQ5smxF3MVm_tc7vbxXQ&s" alt="" />
@@ -28,11 +28,15 @@ export default function Dashboard() {
                                 </a>
 
                                 <a href="#" className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-[#ec1c4c] group">
-                                    <IconPrinter />
+                                    <IconAffiliate />
                                 </a>
 
                                 <a href="#" className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-[#ec1c4c] group">
-                                    <IconAffiliate />
+                                    <IconDeviceDesktop />
+                                </a>
+
+                                <a href="#" className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-[#ec1c4c] group">
+                                    <IconPrinter />
                                 </a>
 
                                 <a href="#" className="flex items-center px-4 py-2.5 text-sm font-medium transition-all duration-200 text-gray-900 hover:text-white rounded-lg hover:bg-[#ec1c4c] group">
