@@ -1,4 +1,4 @@
-import Lista from "@/components/Lista";
+import Lista from "@/components/lista_usuarios/Lista";
 import PCItem from "@/components/PCItem";
 import pcs from "@/constants/pcs";
 import { IconAffiliate, IconDeviceDesktop, IconPrinter } from "@tabler/icons-react";

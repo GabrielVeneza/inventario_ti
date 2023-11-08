@@ -54,11 +54,10 @@ body {
 
 
 /* ------ TABELA ------ */
-#tabela{
-  height:300px;
-  min-width: 100%;
-  }
-#tabela thead, tbody tr {   
-    width: 100%;
+.tabela{
+  height:250pxpx;
 }
-
+.tabelaBody{
+  overflow:auto;
+  height:250px;  
+}
