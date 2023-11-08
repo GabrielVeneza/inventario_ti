@@ -62,9 +62,3 @@ body {
     width: 100%;
 }
 
-#tabela tbody {
-    width: 100%;
-    display:block;
-    overflow:auto;
-    height: 250px;
-}
