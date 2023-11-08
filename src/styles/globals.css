@@ -57,7 +57,83 @@ body {
 .tabela{
   height:250pxpx;
 }
+
 .tabelaBody{
   overflow:auto;
   height:250px;  
+}
+
+/*.tabelaLinha{
+  cursor:pointer;
+}.tabelaLinha :hover{
+  background-color: rgb(75 85  99 / 0.2);
+  color: #fff;
+}*/
+
+
+
+.input-1 {
+  max-width: 190px;
+  background-color: #fff;
+  color: #242424;
+  padding: .15rem .5rem;
+  min-height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  line-height: 1.15;
+  box-shadow: 5px 9px 28px -7px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 5px 9px 28px -7px rgba(0,0,0,0.35);
+  -moz-box-shadow: 5px 9px 28px -7px rgba(0,0,0,0.35);
+}
+.input-1:focus {
+  border-bottom: 2px solid #ec1c4c;
+  border-radius: 4px 4px 2px 2px;
+}
+
+.input-1:hover {
+  outline: 1px solid #ec1c4c;
+}
+
+
+.btn-1 {
+  width: 130px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border: none;
+  color: white;
+  font-weight: 600;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+}
+
+.btn-1::before {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  content: "";
+  background-color: white;
+  border-radius: 50%;
+  left: -100%;
+  top: 0;
+  transition-duration: .3s;
+  mix-blend-mode: difference;
+}
+
+.btn-1:hover::before {
+  transition-duration: .3s;
+  transform: translate(100%,-50%);
+  border-radius: 0;
+}
+
+.btn-1:active {
+  transform: translate(5px,5px);
+  transition-duration: .3s;
 }
