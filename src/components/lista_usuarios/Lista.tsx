@@ -64,7 +64,7 @@ export default function Lista() {
                                 <div className="px-5 py-2 border-b border-gray-200 bg-white text-sm">
                                     <div className="flex items-center">
                                         <div className="flex-shrink-0 w-10 h-10">
-                                            <img className="w-full h-full rounded-full"
+                                            <img className="w-full h-full rounded-full perfil"
                                                 src="http://cdn.lopesrj.com.br/perfil/imagemLocal.ashx?us=13733&wd=400&ht=400&m=crop"
                                                 alt="" />
                                         </div>
