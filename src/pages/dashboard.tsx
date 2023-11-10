@@ -1,3 +1,4 @@
+import CardsDeashboard from "@/components/deashboard/cardsDeashboard";
 import Lista from "@/components/lista_usuarios/Lista";
 import PCItem from "@/components/PCItem";
 import SideMenu from "@/components/sidemenu";
@@ -7,9 +8,9 @@ export default function Dashboard() {
     const pc = pcs[0]
 
     return (
-        <div className="flex flex-1  h-screen bg-gray-50">
-           
-           <SideMenu/>
+        <div className="flex flex-1 h-screen bg-gray-50">
+
+            <SideMenu />
 
             <div className="flex flex-col flex-1">
                 <main>
@@ -18,7 +19,7 @@ export default function Dashboard() {
                             {/* <!-- ADD YOUR CONTENT HERE --> */}
                             {/* <PCItem id="0" /> */}
 
-                            <span className="text-black">BSJ2222</span><br />
+                            {/* <span className="text-black">BSJ2222</span><br />
                             <span className="text-black text-3xl font-bold">GABRIEL OLIVEIRA</span>
                             <div className="grid grid-cols-12 gap-4 mt-8">
                                 <div>
@@ -57,16 +58,20 @@ export default function Dashboard() {
                                     <span className="text-zinc-500 text-sm">POLEGADAS</span><br />
                                     <span className="text-zinc-800 text-sm">24"</span>
                                 </div>
-                            </div>
+                            </div> */}
+
+
+                            <CardsDeashboard />
+
+
                         </div>
                     </div>
                     <hr className="border-[#ec1c4c] mt-8 overflow-visible " />
 
-
                     <div className="flex justify-center">
 
                         <Lista />
-                        
+
                     </div>
                 </main>
             </div>

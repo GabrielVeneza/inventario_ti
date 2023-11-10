@@ -2,7 +2,7 @@ import { IconArrowBigLeft, IconArrowBigRight, IconEdit } from "@tabler/icons-rea
 
 export default function Lista() {
     return (
-        <div className="bg-white m-[60px] p-5 rounded-2xl shadow-md w-full">
+        <div className="bg-white m-[60px] mt-10 p-5 rounded-2xl shadow-md w-[90%]">
             <div className=" flex items-center justify-between pb-6">
                 <div>
                     <h2 className="text-gray-600 font-semibold">Lista de Usuários</h2>
@@ -60,11 +60,11 @@ export default function Lista() {
                         </div>
 
                         <div className="tabelaBody">
-                            <div className="grid grid-cols-6 mt-8 ">
+                            <div className="grid grid-cols-6 mt-8 hover:border-b-4-[#ec1c4c]">
                                 <div className="px-5 py-2 border-b border-gray-200 bg-white text-sm">
                                     <div className="flex items-center">
                                         <div className="flex-shrink-0 w-10 h-10">
-                                            <img className="w-full h-full rounded-full perfil"
+                                            <img className="w-full h-full rounded-full"
                                                 src="http://cdn.lopesrj.com.br/perfil/imagemLocal.ashx?us=13733&wd=400&ht=400&m=crop"
                                                 alt="" />
                                         </div>
