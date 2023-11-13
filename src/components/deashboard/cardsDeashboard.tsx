@@ -8,7 +8,7 @@ export default function CardsDeashboard() {
                     <div className="flex flex-col lg:flex-row w-full lg:space-x-8 space-y-2 lg:space-y-0 mb-2 lg:mb-4 items-center justify-center">
 
                         <div className="w-full lg:w-1/5 sm:w-2 cursor-pointer">
-                            <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-purple-400 hover:border-l-8 duration-100">
+                            <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-purple-400 shadow-sm hover:shadow-purple-400 hover:border-l-8 duration-100">
                                 <div className="flex items-center">
                                     <div className="icon p-3.5 bg-purple-400 text-white rounded-full mr-3">
                                         <IconUserExclamation />
@@ -22,7 +22,7 @@ export default function CardsDeashboard() {
                         </div>
 
                         <div className="w-full lg:w-1/5 cursor-pointer">
-                            <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-blue-400 hover:border-l-8 duration-100">
+                            <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-blue-400 shadow-sm hover:shadow-blue-400 hover:border-l-8 duration-100">
                                 <div className="flex items-center">
                                     <div className="icon w-14 p-3.5 bg-blue-400 text-white rounded-full mr-3">
                                         <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -38,7 +38,7 @@ export default function CardsDeashboard() {
                         </div>
 
                         <div className="w-full lg:w-1/5 cursor-pointer">
-                            <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-yellow-400 hover:border-l-8 duration-100">
+                            <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-yellow-400 shadow-sm hover:shadow-yellow-400 hover:border-l-8 duration-100">
                                 <div className="flex items-center">
                                     <div className="icon w-14 p-3.5 bg-yellow-400 text-white rounded-full mr-3">
                                         <IconDevices2 />
@@ -52,7 +52,7 @@ export default function CardsDeashboard() {
                         </div>
 
                         <div className="w-full lg:w-1/5 cursor-pointer">
-                            <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-red-400 hover:border-l-8 duration-100">
+                            <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-red-400 shadow-sm hover:shadow-red-400 hover:border-l-8 duration-100">
                                 <div className="flex items-center">
                                     <div className="icon w-14 p-3.5 bg-red-400 text-white rounded-full mr-3">
                                         <IconPrinter />
