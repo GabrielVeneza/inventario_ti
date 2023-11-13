@@ -3,9 +3,9 @@ import { IconArrowBigLeft, IconArrowBigRight, IconEdit } from "@tabler/icons-rea
 export default function Lista() {
     return (
         <div className="bg-white m-[60px] mt-10 p-5 rounded-2xl shadow-md w-[90%]">
-            <div className=" flex items-center justify-between pb-6">
+            <div className=" flex items-center justify-between">
                 <div>
-                    <h2 className="text-gray-600 font-semibold">Lista de Usuários</h2>
+                    <h2 className="text-gray-600 font-semibold text-xl">Lista de Usuários</h2>
                 </div>
                 <div className="flex items-center justify-between">
                     {/* <div className="flex bg-gray-50 items-center p-2 rounded-md">
@@ -27,7 +27,6 @@ export default function Lista() {
 
 
                     <input className="input-1" name="text" placeholder="Pesquisar..." type="search" />
-
 
                     <button className="btn-1 lg:ml-10 space-x-8">
                         Adicionar
@@ -60,7 +59,7 @@ export default function Lista() {
                         </div>
 
                         <div className="tabelaBody">
-                            <div className="grid grid-cols-6 mt-8 hover:border-b-4-[#ec1c4c]">
+                            <div className="grid grid-cols-6 mt-8">
                                 <div className="px-5 py-2 border-b border-gray-200 bg-white text-sm">
                                     <div className="flex items-center">
                                         <div className="flex-shrink-0 w-10 h-10">

@@ -1,11 +1,9 @@
 import { IconAffiliate, IconDeviceDesktop, IconPrinter } from "@tabler/icons-react";
 
-
-
 export default function SideMenu() {
     return (
-        <div className="hidden md:flex md:w-20 md:flex-col shadow-md">
-            <div className="flex flex-col flex-grow pt-5 overflow-y-auto bg-white border border-r-gray-100">
+        <div className="hidden md:flex md:w-20 md:flex-col hover:shadow-lg">
+            <div className="flex flex-col flex-grow pt-5 overflow-y-auto bg-gray-50">
                 <div className="flex justify-center items-center flex-shrink-0 px-4">
                     <img className="w-auto h-[32px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLE9DGVPNVJ30saW_ABX-oMiJQ5smxF3MVm_tc7vbxXQ&s" alt="" />
                 </div>
