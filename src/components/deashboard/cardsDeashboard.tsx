@@ -36,7 +36,6 @@ export default function CardsDeashboard() {
                                 </div>
                             </div>
                         </div>
-
                         <div className="w-full lg:w-1/5 cursor-pointer">
                             <div className="widget w-full p-4 rounded-lg bg-white border-l-4 border-yellow-400 shadow-sm hover:shadow-yellow-400 hover:border-l-8 duration-100">
                                 <div className="flex items-center">

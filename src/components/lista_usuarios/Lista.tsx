@@ -29,7 +29,7 @@ export default function Lista() {
                     <input className="input-1" name="text" placeholder="Pesquisar..." type="search" />
 
                     <button className="btn-1 lg:ml-10 space-x-8">
-                        Adicionar
+                        Adicionar +
                     </button>
                 </div>
             </div>
