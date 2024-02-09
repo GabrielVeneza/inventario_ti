@@ -5,7 +5,7 @@ export default function SideMenu() {
         <div className="hidden md:flex md:w-20 md:flex-col hover:shadow-lg">
             <div className="flex flex-col flex-grow pt-5 overflow-y-auto bg-gray-50">
                 <div className="flex justify-center items-center flex-shrink-0 px-4">
-                    <img className="w-auto h-[32px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLE9DGVPNVJ30saW_ABX-oMiJQ5smxF3MVm_tc7vbxXQ&s" alt="" />
+                    <img className="w-auto h-[32px]" src="../img/logo/lopes-icone.png" alt="Logotipo - Lopes" />
                 </div>
 
                 <div className="px-4 mt-6">
