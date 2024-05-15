@@ -2,7 +2,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 /* Track */
@@ -21,18 +21,21 @@
   background: #b30000; 
 }
 
+body { overflow-x: hidden; }
+
 /* ------ SCROLL BAR ------ */
 
 
 
 /* ------ TABELA ------ */
-.tabela{
-  height:250pxpx;
-}
 
 .tabelaBody{
   overflow:auto;
-  height:250px;  
+  height:400px;  
+}
+
+.lista-chamado{
+  
 }
 
 .input-1 {
@@ -109,4 +112,8 @@
 
 .perfil{
   outline: 1px solid #ec1c4c;
+}
+
+main{
+  background-color: #fff;
 }

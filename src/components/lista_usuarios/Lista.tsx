@@ -1,11 +1,11 @@
-import { IconArrowBigLeft, IconArrowBigRight, IconEdit } from "@tabler/icons-react";
+import { IconArrowBigLeft, IconArrowBigRight, IconEdit, IconMessage } from "@tabler/icons-react";
 
 export default function Lista() {
     return (
-        <div className="bg-white m-[60px] mt-10 p-5 rounded-2xl shadow-md w-[90%]">
+        <div className="bg-white mt-10 p-5 rounded-2xl shadow-md w-[90%] mb-10 lista-chamados">
             <div className=" flex items-center justify-between">
                 <div>
-                    <h2 className="text-gray-600 font-semibold text-xl">Lista de Usuários</h2>
+                    <h2 className="text-gray-600 font-semibold text-xl">Chamados Abertos</h2>
                 </div>
                 <div className="flex items-center justify-between">
                     {/* <div className="flex bg-gray-50 items-center p-2 rounded-md">
@@ -29,12 +29,12 @@ export default function Lista() {
                     <input className="input-1" name="text" placeholder="Pesquisar..." type="search" />
 
                     <button className="btn-1 lg:ml-10 space-x-8">
-                        Adicionar +
+                        Filtrar
                     </button>
                 </div>
             </div>
             <div>
-                <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4" >
+                <div className="mx-4 sm:-mx-8 px-4 sm:px-8 py-4" >
                     <div className="shadow rounded-lg">
 
                         <div className="grid grid-cols-6 mt-8 tabelaHrader">
@@ -54,49 +54,11 @@ export default function Lista() {
                                 <span className="text-zinc-500 text-sm">Status</span>
                             </div>
                             <div className="px-5 py-3 border-b-2 border-gray-200 bg-gray-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                                <span className="text-zinc-500 text-sm">Editar</span>
+                                <span className="text-zinc-500 text-sm">Notas</span>
                             </div>
                         </div>
 
                         <div className="tabelaBody">
-                            <div className="grid grid-cols-6 mt-8">
-                                <div className="px-5 py-2 border-b border-gray-200 bg-white text-sm">
-                                    <div className="flex items-center">
-                                        <div className="flex-shrink-0 w-10 h-10">
-                                            <img className="w-full h-full rounded-full"
-                                                src="http://cdn.lopesrj.com.br/perfil/imagemLocal.ashx?us=13733&wd=400&ht=400&m=crop"
-                                                alt="" />
-                                        </div>
-                                        <div className="ml-3">
-                                            <p className="text-gray-900 whitespace-no-wrap">
-                                                Márcio Sodré
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p className="text-gray-900 whitespace-no-wrap">Gerente de T.I.</p>
-                                </div>
-                                <div className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p className="text-gray-900 whitespace-no-wrap">T.I.</p>
-                                </div>
-                                <div className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p className="text-gray-900 whitespace-no-wrap">-</p>
-                                </div>
-                                <div className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <p className="text-gray-900 whitespace-no-wrap"><span
-                                        className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                                        <span aria-hidden
-                                            className="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                                        <span className="relative">Ativo</span>
-                                    </span></p>
-                                </div>
-                                <div className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                                    <button className="text-[#ec1c4c] whitespace-no-wrap">
-                                        <IconEdit size={20} />
-                                    </button>
-                                </div>
-                            </div>
 
                             <div className="tabelaLinha">
                                 <div className="grid grid-cols-6 mt-8 tabelaLinha">
@@ -129,15 +91,61 @@ export default function Lista() {
                                     </div>
                                     <div className="px-5 py-5 border-b border-gray-200 text-sm">
                                         <span
-                                            className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                                            className="relative inline-block px-3 py-1 font-semibold text-purple-900 leading-tight">
                                             <span aria-hidden
-                                                className="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                                            <span className="relative">Activo</span>
+                                                className="absolute inset-0 bg-purple-200 opacity-50 rounded-full"></span>
+                                            <span className="relative">Atendimento</span>
                                         </span>
                                     </div>
                                     <div className="px-5 py-5 border-b border-gray-200 text-sm">
                                         <button className="text-[#ec1c4c] whitespace-no-wrap">
-                                            <IconEdit size={20} />
+                                            <IconMessage size={20} />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div className="tabelaLinha">
+                                <div className="grid grid-cols-6 mt-8 tabelaLinha">
+                                    <div className="px-5 py-2 border-b border-gray-200 text-sm">
+                                        <div className="flex items-center">
+                                            <div className="flex-shrink-0 w-10 h-10">
+                                                <img className="w-full h-full rounded-full"
+                                                    src="http://cdn.lopesrj.com.br/perfil/imagemLocal.ashx?us=10229&wd=400&ht=400&m=crop"
+                                                    alt="" />
+                                            </div>
+                                            <div className="ml-3">
+                                                <p className="text-gray-900 whitespace-no-wrap">
+                                                    Helder
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="px-5 py-5 border-b border-gray-200 text-sm">
+                                        <p className="text-gray-900 whitespace-no-wrap">Garoto de Programa</p>
+                                    </div>
+                                    <div className="px-5 py-5 border-b border-gray-200 text-sm">
+                                        <p className="text-gray-900 whitespace-no-wrap">
+                                            T.I.
+                                        </p>
+                                    </div>
+                                    <div className="px-5 py-5 border-b border-gray-200 text-sm">
+                                        <p className="text-gray-900 whitespace-no-wrap">
+                                            -
+                                        </p>
+                                    </div>
+                                    <div className="px-5 py-5 border-b border-gray-200 text-sm">
+                                        <span
+                                            className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                                            <span aria-hidden
+                                                className="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+                                            <span className="relative">Finalizado</span>
+                                        </span>
+                                    </div>
+                                    <div className="px-5 py-5 border-b border-gray-200 text-sm">
+                                        <button className="text-[#ec1c4c] whitespace-no-wrap">
+                                            <IconMessage size={20} />
                                         </button>
                                     </div>
                                 </div>
@@ -177,12 +185,12 @@ export default function Lista() {
                                         className="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
                                         <span aria-hidden
                                             className="absolute inset-0 bg-orange-200 opacity-50 rounded-full"></span>
-                                        <span className="relative">Suspenso</span>
+                                        <span className="relative">Aguardando</span>
                                     </span>
                                 </div>
                                 <div className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                     <button className="text-[#ec1c4c] whitespace-no-wrap">
-                                        <IconEdit size={20} />
+                                        <IconMessage size={20} />
                                     </button>
                                 </div>
                             </div>
@@ -220,12 +228,12 @@ export default function Lista() {
                                         className="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
                                         <span aria-hidden
                                             className="absolute inset-0 bg-orange-200 opacity-50 rounded-full"></span>
-                                        <span className="relative">Suspenso</span>
+                                        <span className="relative">Aguardando</span>
                                     </span>
                                 </div>
                                 <div className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                     <button className="text-[#ec1c4c] whitespace-no-wrap">
-                                        <IconEdit size={20} />
+                                        <IconMessage size={20} />
                                     </button>
                                 </div>
                             </div>
@@ -263,12 +271,12 @@ export default function Lista() {
                                         className="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
                                         <span aria-hidden
                                             className="absolute inset-0 bg-orange-200 opacity-50 rounded-full"></span>
-                                        <span className="relative">Suspenso</span>
+                                        <span className="relative">Aguardando</span>
                                     </span>
                                 </div>
                                 <div className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                                     <button className="text-[#ec1c4c] whitespace-no-wrap">
-                                        <IconEdit size={20} />
+                                        <IconMessage size={20} />
                                     </button>
                                 </div>
                             </div>

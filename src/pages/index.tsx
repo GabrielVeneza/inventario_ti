@@ -16,7 +16,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
             <div className="relative">
               <div className="w-full max-w-xl xl:w-full xl:mx-auto xl:pr-24 xl:max-w-xl">
-                <h3 className="text-3xl font-bold text-white">Bem vindo(a) ao <br className="hidden xl:block" /><span className='text-[#ec1c4c] text-5xl'>LopesInventory </span></h3>
+                <h3 className="text-3xl font-bold text-white">Bem vindo(a) ao <br className="hidden xl:block" /><span className='text-[#ec1c4c] text-5xl'>Chamados</span></h3>
                 <ul className="grid grid-cols-1 mt-10 sm:grid-cols-2 gap-x-8 gap-y-4">
                   <li className="flex items-center space-x-3">
                     <div className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 bg-[#ec1c4c] rounded-full">
@@ -24,7 +24,7 @@ export default function Home() {
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                       </svg>
                     </div>
-                    <span className="text-lg font-medium text-white"> Gestão de PCs </span>
+                    <span className="text-lg font-medium text-white"> Gestão de Chamados </span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 bg-[#ec1c4c] rounded-full">
@@ -32,7 +32,7 @@ export default function Home() {
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                       </svg>
                     </div>
-                    <span className="text-lg font-medium text-white"> Gestão de Usuários </span>
+                    <span className="text-lg font-medium text-white"> Suporte Técnico </span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="inline-flex items-center justify-center flex-shrink-0 w-5 h-5 bg-[#ec1c4c] rounded-full">
@@ -48,7 +48,7 @@ export default function Home() {
                         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                       </svg>
                     </div>
-                    <span className="text-lg font-medium text-white">Rede </span>
+                    <span className="text-lg font-medium text-white"> Redes </span>
                   </li>
                 </ul>
               </div>
